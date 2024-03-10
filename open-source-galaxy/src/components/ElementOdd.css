@@ -1,0 +1,59 @@
+.container-odd{
+    display: flex;
+    margin: 30px;
+}
+
+.col-odd{
+    border: 5px solid #AD8174;
+    padding: 10px;
+    
+}
+.col-odd > img{
+    height: 180px;
+    width: 400px;
+}
+
+.row-odd{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-odd > a{
+    background-color: #689775 ;
+    color: #fff;
+    margin: 10px 0px 10px 10px;
+    padding: 10px;
+    /* height: 30px; */
+    width: 100px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.row-odd > p{
+    text-align: center;
+    background-color: #689775;
+    width: 200px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px 20px 10px 0px;
+}
+
+.col-odd > button{
+    background-color: #689775;
+    width: 100%;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1025px){
+    .container-odd{
+        width: 100%;
+        justify-content: center;
+    }
+}
