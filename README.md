@@ -4,7 +4,7 @@ The inspiration behind Open Source Galaxy stemmed from a passion for fostering a
 # What it does
 Open Source Galaxy is a platform designed to keep open-source enthusiasts up-to-date with the latest event registration openings. Users can easily access information about upcoming events and ensure they never miss an opportunity to participate.
 
-# How we built it
+# How I built it
 I built Open Source Galaxy using modern web development technologies, including HTML, CSS, and JavaScript. Additionally, I utilized front-end framework technologies such as React.js, Auth0 to handle user authentication, Email.js for remainder notification, GoDaddy to buy a custom domain and Firebase for deployment.
 
 # Challenges I ran into
