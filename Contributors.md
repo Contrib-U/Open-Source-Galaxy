@@ -30,3 +30,10 @@ I'm thrilled you're interested in being part of this project. This guide is here
 
 7. Wait for the review:
 
+
+### Code of Conduct
+
+
+
+<center><b> Thank you for being a part of this project! </b></center>
+
