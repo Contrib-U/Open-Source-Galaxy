@@ -29,7 +29,7 @@ const sendEmail = () => {
         alert("Login is required");
     }
     return(
-        isAuthenticated ?<button onClick={sendEmail}>Email</button> : <button onClick={info}>Email</button>
+        isAuthenticated ?<button onClick={sendEmail}>Set Remainder</button> : <button onClick={info}>Email</button>
     )
 
 
