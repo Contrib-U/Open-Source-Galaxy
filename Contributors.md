@@ -1,5 +1,5 @@
 
-# <center>Welcome to Contributing! </center>
+# <center> Welcome to Contributing! </center>
 
 I'm thrilled you're interested in being part of this project. This guide is here to help you get started, whether you're a seasoned developer or just starting your open source journey.
 
@@ -22,20 +22,25 @@ I'm thrilled you're interested in being part of this project. This guide is here
 
     Click on the fork button to get the copy of Open source galaxy repository to your profile.
     ![Fork](<Screenshot 2024-06-13 191516.png>)
-2. Clone the repository:
+   
+3. Clone the repository:
 
     Once forked the repository, click the code and copy the http link.
+   
     ![Clone link](image-2.png)
+   
     Once copied, navigate to command prompt or any other ide command prompt, enter the command below.
+   
     ` git clone <copied link>  `
-3. Create a new branch:
+5. Create a new branch:
 
-    After cloning the repo in your local machine, create a new branch. 
+    After cloning the repo in your local machine, create a new branch.
+   
     ` git branch <new branch name> `
 
     Make sure to provide the branch some reasonable name Eg: modified-ui
 
-4. Edit and commit the changes:
+7. Edit and commit the changes:
     Switch to the newly created branch and edit the changes in new branch. Note: Do not edit in main branch
 
     ` git checkout <new branch name> `
@@ -50,16 +55,16 @@ I'm thrilled you're interested in being part of this project. This guide is here
 
     `git commit -m "Commit message goes here" `
 
-5. Push the changes:
+8. Push the changes:
     Once all the changes are commited, push the changes to remote branch using the below command.
 
     `git push origin <new branch name>`
 
-6. Create a PR:
+9. Create a PR:
     
     Once the commits are pushed, create a Pull Request with the changes, steps and the output screenshots.
 
-7. Wait for the review:
+10. Wait for the review:
     
     Once you created a PR, wait for us to review the changes and approve the PR. We will then merge the PR once its verified.
 
