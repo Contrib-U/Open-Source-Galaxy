@@ -12,11 +12,15 @@
     border-radius: 50px;
     font-size: x-large;
     padding: 10px;
-    background-color: #C7493A;
-    color: #fff;
+    background-color: #F05941;
+    color: #EEEEEE;
     margin-left: 150px;
 }
 
+::placeholder {
+    color: #EEEEEE;
+    opacity: 1; /* Firefox */
+}
 
 .search-icon{
     width: 50px;
@@ -27,8 +31,7 @@
     cursor: pointer;
     margin-left: 0px;
     margin-right: 30px;
-    background-color: #C7493A;
-    
+    background-color: #F05941;
 }
 .search-icon > img{
 

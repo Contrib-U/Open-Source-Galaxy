@@ -4,7 +4,7 @@
 }
 
 .col-even{
-    border: 5px solid #AD8174;
+    border: 5px solid #D89216;
     padding: 10px;
     
 }
@@ -20,7 +20,7 @@ img{
 }
 
 .row-even > a{
-    background-color: #A33327 ;
+    background-color: #F05941;
     color: #fff;
     margin: 10px 0px 10px 10px;
     padding: 10px;
@@ -35,7 +35,7 @@ img{
 
 .row-even > p{
     text-align: left;
-    background-color: #A33327;
+    background-color: #F05941;
     width: 200px;
     padding: 10px;
     font-size: large;
@@ -45,7 +45,7 @@ img{
 }
 
 .col-even >button{
-    background-color: #A33327;
+    background-color: #F05941;
     width: 100%;
     padding: 10px;
     font-size: large;

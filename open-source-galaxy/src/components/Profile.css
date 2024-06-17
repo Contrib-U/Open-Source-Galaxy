@@ -6,6 +6,7 @@
     width: 50px;
     margin: 10px 20px 5px 5px;
     border-radius: 50%;
+    background-color: #F05941;
 }
 
 @media (max-width: 1025px){

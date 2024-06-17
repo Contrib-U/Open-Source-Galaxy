@@ -4,10 +4,9 @@
     margin: 10px 20px 5px 5px;
     
     cursor: pointer;
-    background-color: #c7493a;
+    background-color: #F05941;
     font-weight: bold;
     font-size: large;
-    background-color: none;
 }
 
 
@@ -22,7 +21,7 @@
         margin-right: 70px;
         
         cursor: pointer;
-        background-color: rgb(199, 73, 58);
+        background-color: #F05941;
         font-weight: bold;
         font-size: medium;
         
