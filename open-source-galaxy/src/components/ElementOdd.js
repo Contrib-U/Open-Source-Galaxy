@@ -8,19 +8,19 @@ function Element(props) {
 
  
   return (
-    <div className='container-odd'>
-        <div className='col-odd'>
-            <img src={props.src} alt='GSOC' />
-            <div className='row-odd'>
-                <p>{props.name} </p>
-                <a href={props.link}>Link</a>
-            </div>
-            {/* <button onClick={changeMessage} className='animation-odd'>
-              {message}
-            </button> */}
-            <Email name = {props.name}/>
+    <div className='card-odd'>
+        <img src={props.src} alt='MLH' />
+        {/* <div className='row-even'>
+            <p>{props.name} </p>
+            <a href={props.link}>Link</a>
         </div>
-        
+
+        <Email name = {props.name}/> */}
+        <h3>{props.name}</h3>
+        <div class="buttons-odd">
+            <a href={props.link} class="btn-odd">Link</a>
+            <Email name={props.name} class="btn-odd" />
+        </div>  
     </div>
   )
 }

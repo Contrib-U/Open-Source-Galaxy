@@ -2,7 +2,6 @@ import React from 'react';
 import emailjs from '@emailjs/browser';
 import { useAuth0} from '@auth0/auth0-react';
 
-
 function Email(props){
     const {user, isAuthenticated} = useAuth0();
 const sendEmail = () => {
@@ -29,7 +28,7 @@ const sendEmail = () => {
         alert("Login is required");
     }
     return(
-        isAuthenticated ?<button onClick={sendEmail}>Set Remainder</button> : <button onClick={info}>Email</button>
+        isAuthenticated ?<button className={props.class} onClick={sendEmail}>Set Remainder</button> : <button className={props.class} onClick={info}>Email</button>
     )
 
 
