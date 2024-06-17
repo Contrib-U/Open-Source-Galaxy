@@ -1,9 +1,7 @@
 import React from "react";
 import ElementOdd from "../ElementOdd";
 import ElementEven from "../ElementEven";
-// import "../ElementEven.css";
-// import "../ElementOdd.css";
-import "./ClosedApplications.css"; // Import your CSS file
+import "./ClosedApplications.css";
 
 function importAll(r) {
   let images = {};
