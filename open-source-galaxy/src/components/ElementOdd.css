@@ -4,7 +4,7 @@
 }
 
 .col-odd{
-    border: 5px solid #AD8174;
+    border: 5px solid #D89216;
     padding: 10px;
     
 }
@@ -19,7 +19,7 @@
 }
 
 .row-odd > a{
-    background-color: #689775 ;
+    background-color: #62A388;
     color: #fff;
     margin: 10px 0px 10px 10px;
     padding: 10px;
@@ -34,7 +34,7 @@
 
 .row-odd > p{
     text-align: center;
-    background-color: #689775;
+    background-color: #62A388;
     width: 200px;
     padding: 10px;
     font-size: large;
@@ -43,7 +43,7 @@
 }
 
 .col-odd > button{
-    background-color: #689775;
+    background-color: #62A388;
     width: 100%;
     padding: 10px;
     font-size: large;
