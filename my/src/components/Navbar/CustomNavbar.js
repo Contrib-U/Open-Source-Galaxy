@@ -52,10 +52,17 @@ export default function CustomNavbar() {
               </Col>
             </Row>
           </Form>
-          <Button variant="outline-primary" className="mx-2">
+          <Button
+            variant="outline-primary"
+            as={Link}
+            to="/log-in"
+            className="mx-2"
+          >
             Log In
           </Button>
-          <Button variant="outline-success">Sign-Up</Button>
+          <Button variant="outline-success" as={Link} to="/sign-up">
+            Sign-Up
+          </Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

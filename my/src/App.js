@@ -10,6 +10,9 @@ import ClosedApplication from "./components/ClosedProject/ClosedApplication";
 import OpenApplication from "./components/OpenProjects/OpenApplication";
 import UpcomingApplication from "./components/UpcomingProject/UpcomingProject";
 
+import Login from "./components/Login";
+import SignUp from "./components/SignUp";
+
 function App() {
   return (
     <Router>
@@ -26,6 +29,8 @@ function App() {
             element={<UpcomingApplication />}
           />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/log-in" element={<Login />} />
+          <Route path="/sign-up" element={<SignUp />} />
         </Routes>
       </div>
     </Router>
