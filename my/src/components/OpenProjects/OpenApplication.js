@@ -18,7 +18,7 @@ const images = importAll(
 function OpenApplication() {
   return (
     <div>
-      <h2>Open Applications</h2>
+      <h2 className="m-2"> OPEN APPLICATIONS</h2>
       <div className="row">
         <ElementOdd
           name="Google Summer Of Code"
@@ -36,41 +36,14 @@ function OpenApplication() {
           link="https://developers.google.com/season-of-docs"
         />
       </div>
-      {/* <div className="row">
-        <ElementEven
-          name="Linux Kernel Mentorship"
-          src={images["element-7.png"]}
-          link="https://wiki.linuxfoundation.org/lkmp"
-        />
-        <ElementOdd
-          name="Code Heat"
-          src={images["element-8.png"]}
-          link="https://codeheat.org/"
-        /> 
-     <ElementEven
-          name="Hacktober Fest"
-          src={images["element-9.jpg"]}
-          link="https://hacktoberfest.com/"
-        />
-      </div>  */}
 
-      {/* <div className="row">
+      <div className="row">
         <ElementOdd
           name="GirlScript SOC"
           src={images["element-4.jpg"]}
           link="https://gssoc.girlscript.tech/"
         />
-        <ElementEven
-          name="Outreachy"
-          src={images["element-5.png"]}
-          link="https://www.outreachy.org/"
-        />
-        <ElementOdd
-          name="Summer of Bitcoin"
-          src={images["element-6.png"]}
-          link="https://www.summerofbitcoin.org/"
-        />
-      </div> */}
+      </div>
     </div>
   );
 }

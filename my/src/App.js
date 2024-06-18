@@ -2,14 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar/CustomNavbar";
-// import Header from "./Header";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Email";
 import ClosedApplication from "./components/ClosedProject/ClosedApplication";
 import OpenApplication from "./components/OpenProjects/OpenApplication";
 import UpcomingApplication from "./components/UpcomingProject/UpcomingProject";
-
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 

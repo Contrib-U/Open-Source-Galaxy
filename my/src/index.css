@@ -8,6 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #1E1E1E; */
+  background-color: black;
+  color: white;
   overflow-x: hidden;
 }

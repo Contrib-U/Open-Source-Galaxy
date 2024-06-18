@@ -14,8 +14,6 @@ const UpcomingProject = () => {
         <h4>Check back again or leave your email, we'll update you.</h4>
       </div>
 
-      {/* <Email /> */}
-
       <Form className="container">
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
