@@ -1,13 +1,41 @@
 .profile{
     height: 50px;
     width: 80px;
-    margin: 10px 20px 5px 5px;
+    margin: 20px 20px 5px 5px;
     
     cursor: pointer;
     background-color: #F05941;
     font-weight: bold;
     font-size: large;
+    border-radius: 10px;
 }
+
+.profile {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.profile:hover {
+    background-color: #e04834; 
+    transform: scale(1.05); 
+}
+
+.profile:active {
+    background-color: #c04330; 
+    transform: scale(0.95); 
+}
+
+@keyframes buttonFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.profile {
+    animation: buttonFadeIn 1s ease-in-out;
+}
+
+
+
+
 
 
 
@@ -24,6 +52,7 @@
         background-color: #F05941;
         font-weight: bold;
         font-size: medium;
+        border-radius: 10px;
         
     }
 }
