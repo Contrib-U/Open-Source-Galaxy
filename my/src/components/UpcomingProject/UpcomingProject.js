@@ -8,10 +8,10 @@ const UpcomingProject = () => {
   return (
     <>
       <div className="container text-center my-5">
-        <img height={"3vw"} width={"2vw"} src={sadface} alt="" />
+        <img style={{ height: "60px", width: "60px" }} src={sadface} alt="" />
         <h4>There are no upcoming projects at this moment.</h4>
 
-        <h4>Check back again or leave your email, we'll update you</h4>
+        <h4>Check back again or leave your email, we'll update you.</h4>
       </div>
 
       {/* <Email /> */}

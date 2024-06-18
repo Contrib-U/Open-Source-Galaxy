@@ -1,0 +1,35 @@
+.navbar-custom {
+  background-color: black; /* Change to your preferred background color */
+  color: #fff; /* Change to your preferred text color */
+}
+
+.navbar-custom .button {
+  background: #ef5941;
+  border: none;
+  color: #fff; /* Add text color for better contrast */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .nav-dropdown-item,
+.navbar-custom .navbar-toggler {
+  color: #ef5941;
+}
+
+.navbar-custom .nav-link,
+#basic-nav-dropdown,
+.navbar-custom .nav-dropdown-item {
+  color: #ef5941 !important; /* Change text color on hover*/
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: #fff; /* Change toggler border color */
+  color: #fff; /* Ensure the collapse icon remains white */
+}
+
+/* Add margin beneath the form on smaller screens when the navbar is collapsed */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    margin-bottom: 15px;
+  }
+}

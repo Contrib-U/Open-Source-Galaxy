@@ -2,13 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-import Button from "react-bootstrap/Button";
 import Navbar from "react-bootstrap/Navbar";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import "./Navbar.css";
 
 export default function CustomNavbar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="navbar-custom">
       <Container>
         <Navbar.Brand as={Link} to="/">
           Open Source Galaxy
@@ -32,13 +36,26 @@ export default function CustomNavbar() {
               <NavDropdown.Item as={Link} to="/closed-applications">
                 Closed Applications
               </NavDropdown.Item>
-              {/* Add more dropdown items as needed */}
             </NavDropdown>
           </Nav>
-          <Button variant="outline-primary">Log In</Button>{" "}
-          <Button className="mx-2" variant="outline-success">
-            Sign-Up
-          </Button>{" "}
+          <Form className="d-flex mb-3 mb-lg-0">
+            <Row className="align-items-center">
+              <Col>
+                <Form.Control
+                  type="text"
+                  placeholder="Search"
+                  className="sm-2"
+                />
+              </Col>
+              <Col>
+                <Button className="button">Submit</Button>
+              </Col>
+            </Row>
+          </Form>
+          <Button variant="outline-primary" className="mx-2">
+            Log In
+          </Button>
+          <Button variant="outline-success">Sign-Up</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

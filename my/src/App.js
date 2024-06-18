@@ -6,8 +6,8 @@ import Navbar from "./components/Navbar/CustomNavbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Email";
-import ClosedApplication from "./components/ClosedApplication/ClosedApplication";
-import OpenApplication from "./components/OpenApplication/OpenApplication";
+import ClosedApplication from "./components/ClosedProject/ClosedApplication";
+import OpenApplication from "./components/OpenProjects/OpenApplication";
 import UpcomingApplication from "./components/UpcomingProject/UpcomingProject";
 
 function App() {
