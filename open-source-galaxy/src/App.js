@@ -3,6 +3,7 @@ import './App.css';
 import ElementOdd from './components/ElementOdd';
 import Header from './components/Header';
 import ElementEven from './components/ElementEven';
+import { ThemeProvider } from './components/ThemeContext';
 // import SearchBar from './components/SearchBar';
 // import './assets/';
 
@@ -21,7 +22,9 @@ const images = importAll(require.context('./assets', false, /\.(png|jpe?g)$/));
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <ThemeProvider>
+        <Header/>
+      </ThemeProvider>
       
       <div className='container'>
         <ElementOdd name="Google Summer Of Code" src= {images['element_1.jpg']} link = "https://summerofcode.withgoogle.com/"/>

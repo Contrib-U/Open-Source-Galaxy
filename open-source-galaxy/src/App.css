@@ -28,3 +28,11 @@
       grid-template-columns: 1fr;
   }
 }
+
+.light-mode{
+  background-color: aliceblue;
+}
+
+.dark-mode{
+  background-color: #1E1E1E;
+}
