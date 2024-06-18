@@ -36,19 +36,6 @@ function App() {
         <ElementEven name="Outreachy" src={images['element-5.png']} link="https://www.outreachy.org/" />
         <ElementOdd name="Summer of BitCoin" src={images['element-6.png']} link="https://www.summerofbitcoin.org/" />
       </div>
-
-      <div className='row'>
-        <ElementOdd name="Hyperledger Mentorship Program" src={images['element-10.png']} link="https://wiki.hyperledger.org/display/INTERN" />
-        <ElementEven name="Reinforcement Learning Open Source Fest" src={images['element-11.jpg']} link="https://www.microsoft.com/en-us/research/academic-program/rl-open-source-fest/" />
-        <ElementOdd name="FOSSASIA Internship Program" src={images['element-12.png']} link="https://fossasiataipei.github.io/fossasia-cht/apply/" />
-      </div>
-
-      <div className='row'>
-        <ElementOdd name="Summer of Nix" src={images['element-13.png']} link="https://github.com/ngi-nix/summer-of-nix" />
-        <ElementEven name="24 Pull Requests" src={images['element-14.png']} link="https://24pullrequests.com/" />
-        <ElementOdd name="GitHub Octernship Program" src={images['element-15.png']} link="https://github.com/education/Octernships" />
-      </div>
-      
       
     </div>
   );
