@@ -14,7 +14,7 @@ export default function CustomNavbar() {
   return (
     <Navbar expand="lg" className="navbar-custom">
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand className="site-name" as={Link} to="/">
           Open Source Galaxy
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -37,6 +37,9 @@ export default function CustomNavbar() {
                 Closed Projects
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link as={Link} to="/blogs">
+              Blogs
+            </Nav.Link>
           </Nav>
           <Form className="d-flex mb-3 mb-lg-0">
             <Row className="align-items-center">
@@ -52,15 +55,15 @@ export default function CustomNavbar() {
               </Col>
             </Row>
           </Form>
-          <Button
-            variant="outline-primary"
-            as={Link}
-            to="/log-in"
-            className="mx-2"
-          >
+          <Button variant="outline-primary" as={Link} to="/log-in">
             Log In
           </Button>
-          <Button variant="outline-success" as={Link} to="/sign-up">
+          <Button
+            variant="outline-success"
+            className="mx-2"
+            as={Link}
+            to="/sign-up"
+          >
             Sign-Up
           </Button>
         </Navbar.Collapse>

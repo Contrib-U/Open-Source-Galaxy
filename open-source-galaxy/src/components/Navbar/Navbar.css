@@ -4,6 +4,11 @@
   transition: all 0.6s ease; /* Smooth transition */
 }
 
+.navbar-custom .site-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .navbar-custom .button {
   background: #ef5941;
   border: none;
