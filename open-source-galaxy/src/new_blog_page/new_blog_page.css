@@ -1,0 +1,258 @@
+body {
+    background-color: #1e1e1e;
+    color: #c7493a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    animation: slide-in 1.5s forwards;
+    font-family: 'Kameron', serif;
+}
+
+@keyframes slide-in {
+    0% { transform: translateY(-100px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.sidebar {
+    background-color: #2e2e2e;
+    padding: 1em;
+    width: 250px;
+    position: sticky;
+    top: 60px;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
+.sidebar h3 {
+    color: #c7493a;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar a {
+    color: #c7493a;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #3e3e3e;
+}
+
+.content {
+    padding: 1em;
+    flex: 1;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+}
+
+.content h2 {
+    color: #c7493a;
+    margin-top: 0;
+}
+
+.hackathon-section {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.hackathon-section h2 {
+    color: #c7493a;
+    margin-top: 0;
+}
+
+.experience {
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.experience:hover {
+    transform: scale(1.05);
+}
+
+.experience img {
+    border-radius: 50%;
+    margin-right: 15px;
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+
+.experience-details {
+    flex: 1;
+}
+
+.experience h3 {
+    color: #c7493a;
+    margin-top: 0;
+}
+
+.experience-date {
+    font-size: 0.9em;
+    color: #43844d;
+}
+.green-line{
+    position: relative;
+    top: 10px;
+    padding: 1px;
+    background-color: #43844d;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.footer-section {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #c7493a;
+    text-decoration: none;
+    margin: 0 0.5em;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.red-line {
+    height: 2px;
+    background-color: #43844d;
+    margin: 10px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #2e2e2e;
+    color: #c7493a;
+}
+
+.form-group input[type="submit"] {
+    background-color: #c7493a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #b9382f;
+}
+
+.footer-description {
+    margin-top: 0;
+}
+
+#right a {
+    text-decoration: none;
+    color: #b9382f;
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        position: relative;
+        top: 0;
+        height: auto;
+    }
+
+    .content {
+        margin-top: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+}
