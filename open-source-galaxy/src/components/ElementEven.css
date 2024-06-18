@@ -1,0 +1,64 @@
+.container-even{
+    display: flex;
+    margin: 30px;
+}
+
+.col-even{
+    border: 5px solid #D89216;
+    padding: 10px;
+    
+}
+
+img{
+    height: 180px;
+    width: 400px;
+}
+
+.row-even{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-even > a{
+    background-color: #F05941;
+    color: #fff;
+    margin: 10px 0px 10px 10px;
+    padding: 10px;
+    text-align: center;
+    /* height: 30px; */
+    width: 100px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.row-even > p{
+    text-align: left;
+    background-color: #F05941;
+    width: 200px;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 20px 10px 0px;
+}
+
+.col-even >button{
+    background-color: #F05941;
+    width: 100%;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 1025px){
+    .container-even{
+        width: 100%;
+        justify-content: center;
+    }
+}
+

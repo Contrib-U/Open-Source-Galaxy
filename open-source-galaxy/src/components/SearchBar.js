@@ -5,10 +5,10 @@ import searchIcon2 from '../assets/icons8-search-50.png'
 
 function SearchBar() {
   return (
-    <div className='search-bar' title="search here">
+    <div className='search-bar'>
       
-        <input type='text' placeholder='Search...'/>
-        <button className='search-icon' title="click to search">
+        <input type='text' placeholder='Search..'/>
+        <button className='search-icon'>
             <img src={searchIcon2}/>
         </button>
       

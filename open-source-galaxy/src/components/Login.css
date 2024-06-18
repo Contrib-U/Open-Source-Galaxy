@@ -1,0 +1,29 @@
+.profile{
+    height: 50px;
+    width: 80px;
+    margin: 10px 20px 5px 5px;
+    
+    cursor: pointer;
+    background-color: #F05941;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+
+
+
+@media (max-width: 1025px) {
+    .profile{
+        height: 40px;
+        width: 80px;
+        margin-right: 70px;
+        
+        cursor: pointer;
+        background-color: #F05941;
+        font-weight: bold;
+        font-size: medium;
+        
+    }
+}

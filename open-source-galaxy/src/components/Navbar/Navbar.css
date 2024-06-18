@@ -7,15 +7,14 @@
 .navbar-custom .button {
   background: #ef5941;
   border: none;
-
-  color: #fff; /* Add text color for better contrast */
+  color: #fff;
 }
 
 .navbar-custom .button:hover {
   background: #fff;
   border: none;
-
-  color: #ef5941; /* Add text color for better contrast */
+  color: #ef5941;
+  transition: all 0.5s ease;
 }
 
 .navbar-custom .navbar-brand,

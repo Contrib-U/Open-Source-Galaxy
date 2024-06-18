@@ -18,7 +18,7 @@ const images = importAll(
 function OpenApplication() {
   return (
     <div>
-      <h2 className="m-2"> OPEN APPLICATIONS</h2>
+      <h2 className="m-2"> OPEN PROJECTS</h2>
       <div className="row">
         <ElementOdd
           name="Google Summer Of Code"

@@ -5,12 +5,9 @@ import './Login.css';
 const Login = () => {
     const {loginWithRedirect} = useAuth0();
     return (
-        <button onClick={() => loginWithRedirect()} className='profile' 
-        title="Log in to your account">
-
-            <i class="fas fa-sign-in-alt"></i> Login
+        <button onClick={() => loginWithRedirect()} className='profile'>
+            Log In
         </button>
-        
 
 )
 }

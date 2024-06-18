@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+ElementOdd,
+ElementEven {
+  margin: 30px;
+}
+
+@media screen and (max-width: 1025px) {
+  .row {
+    display: block;
+    width: 100%;
+  }
+}

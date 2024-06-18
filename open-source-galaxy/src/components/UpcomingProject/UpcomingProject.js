@@ -1,5 +1,4 @@
 import React from "react";
-import Email from "../Contact/Email";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import sadface from "./sad-face.png";
