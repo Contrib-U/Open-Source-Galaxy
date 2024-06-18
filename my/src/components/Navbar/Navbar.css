@@ -1,21 +1,28 @@
 .navbar-custom {
   background-color: black; /* Change to your preferred background color */
   color: #fff; /* Change to your preferred text color */
+  transition: all 0.6s ease; /* Smooth transition */
 }
 
 .navbar-custom .button {
   background: #ef5941;
   border: none;
+
   color: #fff; /* Add text color for better contrast */
+}
+
+.navbar-custom .button:hover {
+  background: #fff;
+  border: none;
+
+  color: #ef5941; /* Add text color for better contrast */
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link,
 .navbar-custom .nav-dropdown-item,
-.navbar-custom .navbar-toggler {
-  color: #ef5941;
-}
-
+.navbar-custom .navbar-toggler,
+.navbar-custom .navbar-brand:hover,
 .navbar-custom .nav-link,
 #basic-nav-dropdown,
 .navbar-custom .nav-dropdown-item {
@@ -27,9 +34,17 @@
   color: #fff; /* Ensure the collapse icon remains white */
 }
 
-/* Add margin beneath the form on smaller screens when the navbar is collapsed */
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 89, 65, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Add margin beneath the dropdown on smaller screens when the navbar is collapsed */
 @media (max-width: 992px) {
-  .navbar-collapse {
+  .navbar-collapse .dropdown-menu {
     margin-bottom: 15px;
+  }
+
+  .navbar-collapse {
+    transition: all 0.5s ease; /* Smooth transition */
   }
 }
