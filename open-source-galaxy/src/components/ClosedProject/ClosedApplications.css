@@ -1,0 +1,36 @@
+.application-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Default to 1 column */
+  gap: 15px; /* Adjust gap between items */
+}
+
+@media (min-width: 576px) {
+  .application-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on small devices */
+  }
+}
+
+@media (min-width: 768px) {
+  .application-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on medium devices */
+  }
+}
+
+@media (min-width: 992px) {
+  .application-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on large devices */
+  }
+}
+
+@media (min-width: 1200px) {
+  .application-grid {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* 3 columns on extra large devices */
+  }
+}
+
+.application-item {
+  margin-bottom: 0; /* Remove bottom margin to prevent excessive spacing */
+}
