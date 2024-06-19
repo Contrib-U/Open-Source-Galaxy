@@ -27,14 +27,14 @@ export default function CustomNavbar() {
               About
             </Nav.Link>
             <NavDropdown title="Opportunities" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/open-applications">
-                Open Applications
+              <NavDropdown.Item as={Link} to="/open-projects">
+                Open Projects
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/upcoming-applications">
-                Upcoming Applications
+              <NavDropdown.Item as={Link} to="/upcoming-projects">
+                Upcoming Projects
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/closed-applications">
-                Closed Applications
+              <NavDropdown.Item as={Link} to="/closed-projects">
+                Closed Projects
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>

@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ElementOdd from "./components/ElementOdd";
-import Header from "./components/Header";
 import ElementEven from "./components/ElementEven";
 import CustomNavbar from "./components/Navbar/CustomNavbar";
 // import SearchBar from './components/SearchBar';
@@ -41,7 +40,7 @@ function App() {
         <Route path="/sign-up" element={<Signup />} /> */}
       </Routes>
 
-      <div className="container">
+      {/* <div className="container">
         <ElementOdd
           name="Google Summer Of Code"
           src={images["element_1.jpg"]}
@@ -121,7 +120,7 @@ function App() {
           src={images["element-15.png"]}
           link="https://github.com/education/Octernships"
         />
-      </div>
+      </div> */}
     </Router>
   );
 }
