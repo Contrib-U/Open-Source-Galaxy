@@ -184,6 +184,7 @@ footer {
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 10px;
+    padding-left: 5%;
 }
 
 .social-icons {
@@ -196,12 +197,18 @@ footer {
     width: 30px;
     height: 30px;
 }
+#twitter{
+    height: 26px;
+    width: 27px;
+    position: relative;
+    top: 2px;
+}
 
 .gform-link {
     display: inline-block;
     background-color: #c7493a;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 13px;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
