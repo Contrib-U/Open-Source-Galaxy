@@ -34,12 +34,12 @@ const Home = () => {
           <Tab>CLOSED PROJECTS</Tab>
         </TabList>
 
-        <TabIndicator
+        {/* <TabIndicator
           mt="-1.5px"
           height="2px"
           bg="green.500"
           borderRadius="1px"
-        />
+        /> */}
         <TabPanels>
           <TabPanel>
             <div className="container">

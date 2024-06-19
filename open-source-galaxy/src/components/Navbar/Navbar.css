@@ -1,37 +1,24 @@
 .navbar-custom {
-  background-color: black; /* Change to your preferred background color */
-  color: #fff; /* Change to your preferred text color */
-  transition: all 0.3s ease; /* Smooth transition */
+  background-color: black;
+  color: #fff;
+  transition: all 0.3s ease;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.search-field {
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 1.6rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .navbar-custom .button {
   background: #ef5941;
   border: none;
-  transition: background-color 0.3s, transform 0.3s;
-  color: #fff; /* Add text color for better contrast */
-}
-
-.navbar-custom .button:hover {
-  background-color: #e04834;
-  transform: scale(1.05);
-}
-
-.navbar-custom .button:active {
-  background-color: #c04330;
-  transform: scale(0.95);
-}
-
-@keyframes buttonFadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.profile {
-  animation: buttonFadeIn 1s ease-in-out;
+  color: #fff;
 }
 
 #basic-nav-dropdown {
@@ -46,11 +33,11 @@
 
 .navbar-custom .nav-link:hover,
 .navbar-custom .nav-dropdown-item:hover {
-  color: #ef5941 !important; /* Change text color on hover */
+  color: #ef5941 !important;
 }
 
 .navbar-custom .navbar-toggler {
-  border-color: #fff; /* Change toggler border color */
+  border-color: #fff;
 }
 
 .navbar-custom .navbar-toggler-icon {
@@ -64,6 +51,6 @@
   }
 
   .navbar-collapse {
-    transition: all 0.3s ease; /* Smooth transition */
+    transition: all 0.3s ease;
   }
 }
