@@ -1,29 +1,37 @@
-.profile{
-    height: 50px;
-    width: 80px;
-    margin: 10px 20px 5px 5px;
-    
-    cursor: pointer;
-    background-color: #F05941;
-    font-weight: bold;
-    font-size: large;
+.profile {
+  height: max-content;
+  /* width: 80px;
+  margin: 20px 20px 5px 5px; */
+  cursor: pointer;
+  background-color: #f05941;
+  /* font-weight: bold;
+  font-size: large; */
+  border-radius: 20px;
 }
 
+.profile {
+  transition: background-color 0.3s, transform 0.3s;
+}
 
+.profile:hover {
+  background-color: #e04834;
+  transform: scale(1.03);
+}
 
+.profile:active {
+  background-color: #c04330;
+  transform: scale(0.95);
+}
 
+@keyframes buttonFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
-
-@media (max-width: 1025px) {
-    .profile{
-        height: 40px;
-        width: 80px;
-        margin-right: 70px;
-        
-        cursor: pointer;
-        background-color: #F05941;
-        font-weight: bold;
-        font-size: medium;
-        
-    }
+.profile {
+  animation: buttonFadeIn 1s ease-in-out;
 }

@@ -1,12 +1,15 @@
 .navbar-custom {
-  background-color: black; /* Change to your preferred background color */
-  color: #fff; /* Change to your preferred text color */
-  transition: all 0.6s ease; /* Smooth transition */
+  background-color: rgba(30, 30, 30, 0.5);
+  transition: all 0.3s ease;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.navbar-custom .site-name {
-  font-size: 1.5rem;
+.navbar-custom .navbar-brand {
+  font-size: 1.6rem;
   font-weight: bold;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .navbar-custom .button {
@@ -15,27 +18,27 @@
   color: #fff;
 }
 
-.navbar-custom .button:hover {
-  background: #fff;
-  border: none;
-  color: #ef5941;
-  transition: all 0.5s ease;
+.navbar-custom .nav-link {
+  margin-right: 0.3rem;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link,
 .navbar-custom .nav-dropdown-item,
 .navbar-custom .navbar-toggler,
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .nav-link,
-#basic-nav-dropdown,
-.navbar-custom .nav-dropdown-item {
-  color: #ef5941 !important; /* Change text color on hover*/
+#basic-nav-dropdown {
+  color: #ef5941;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-dropdown-item:hover {
+  color: #ef5941 !important;
 }
 
 .navbar-custom .navbar-toggler {
-  border-color: #fff; /* Change toggler border color */
-  color: #fff; /* Ensure the collapse icon remains white */
+  border-color: #fff;
 }
 
 .navbar-custom .navbar-toggler-icon {
@@ -49,6 +52,6 @@
   }
 
   .navbar-collapse {
-    transition: all 0.5s ease; /* Smooth transition */
+    transition: all 0.3s ease;
   }
 }

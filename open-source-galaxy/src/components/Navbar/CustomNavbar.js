@@ -8,13 +8,14 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Login from "../Login";
 import "./Navbar.css";
 
 export default function CustomNavbar() {
   return (
     <Navbar expand="lg" className="navbar-custom">
       <Container>
-        <Navbar.Brand className="site-name" as={Link} to="/">
+        <Navbar.Brand as={Link} to="/">
           Open Source Galaxy
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -26,14 +27,14 @@ export default function CustomNavbar() {
             <Nav.Link as={Link} to="/about">
               About
             </Nav.Link>
-            <NavDropdown title="Opportunities" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/open-applications">
+            <NavDropdown title="Projects" id="basic-nav-dropdown">
+              <NavDropdown.Item as={Link} to="/open-projects">
                 Open Projects
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/upcoming-applications">
+              <NavDropdown.Item as={Link} to="/upcoming-projects">
                 Upcoming Projects
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/closed-applications">
+              <NavDropdown.Item as={Link} to="/closed-projects">
                 Closed Projects
               </NavDropdown.Item>
             </NavDropdown>
@@ -42,30 +43,17 @@ export default function CustomNavbar() {
             </Nav.Link>
           </Nav>
           <Form className="d-flex mb-3 mb-lg-0">
-            <Row className="align-items-center">
+            <Row className="align-items-center gx-2">
               <Col>
-                <Form.Control
-                  type="text"
-                  placeholder="Search"
-                  className="sm-2"
-                />
+                <Form.Control type="text" placeholder="Search" />
               </Col>
               <Col>
-                <Button className="button">Submit</Button>
+                <Button className="button ">Submit</Button>
               </Col>
             </Row>
           </Form>
-          <Button variant="outline-primary" as={Link} to="/log-in">
-            Log In
-          </Button>
-          <Button
-            variant="outline-success"
-            className="mx-2"
-            as={Link}
-            to="/sign-up"
-          >
-            Sign-Up
-          </Button>
+
+          <Login />
         </Navbar.Collapse>
       </Container>
     </Navbar>

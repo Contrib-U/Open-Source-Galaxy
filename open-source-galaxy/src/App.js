@@ -1,10 +1,16 @@
 import React from "react";
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ElementOdd from "./components/ElementOdd";
 import Header from "./components/Header";
 import ElementEven from "./components/ElementEven";
+// import { ThemeProvider } from "./components/ThemeContext";
 // import SearchBar from './components/SearchBar';
 // import './assets/';
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Blogs from "./components/Blogs/Blogs";
+import Navbar from "./components/Navbar/CustomNavbar";
 
 function importAll(r) {
   let images = {};
@@ -19,24 +25,43 @@ const images = importAll(require.context("./assets", false, /\.(png|jpe?g)$/));
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <>
+      <Router>
+        <Navbar />
 
-      <div className="container">
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          {/* <Route path="/closed-applications" element={<ClosedApplications />} />
+          <Route path="/open-applications" element={<OpenApplications />} />
+          <Route
+            path="/upcoming-applications"
+            element={<UpcomingApplications />}
+          /> */}
+          <Route path="/blogs" element={<Blogs />} />
+          {/* <Route path="/log-in" element={<Login />} />
+          <Route path="/sign-up" element={<Signup />} /> */}
+        </Routes>
+
+        {/* <div className='container'>
+        <ElementOdd name="Google Summer Of Code" src= {images['element_1.jpg']} link = "https://summerofcode.withgoogle.com/"/>
+        <ElementEven name="MLH Fellowship" src={images['element-2.png']} link = "https://shorturl.at/cRVY7"/>
+        <ElementOdd name="Google Summer Of Docs" src={images['element-3.png']} link = "https://developers.google.com/season-of-docs"/>
+
+        <ElementEven
+          name="Linux Kernal Mentorship"
+          src={images["element-7.png"]}
+          link="https://wiki.linuxfoundation.org/lkmp"
+        />
         <ElementOdd
-          name="Google Summer Of Code"
-          src={images["element_1.jpg"]}
-          link="https://summerofcode.withgoogle.com/"
+          name="Code Heat"
+          src={images["element-8.png"]}
+          link="https://codeheat.org/"
         />
         <ElementEven
-          name="MLH Fellowship"
-          src={images["element-2.png"]}
-          link="https://shorturl.at/cRVY7"
-        />
-        <ElementOdd
-          name="Google Summer Of Docs"
-          src={images["element-3.png"]}
-          link="https://developers.google.com/season-of-docs"
+          name="Hacktober Fest"
+          src={images["element-9.jpg"]}
+          link="https://hacktoberfest.com/"
         />
 
         <ElementOdd
@@ -86,9 +111,13 @@ function App() {
           src={images["element-15.png"]}
           link="https://github.com/education/Octernships"
         />
-      </div>
-    </div>
+      </div>  */}
+      </Router>
+    </>
   );
 }
 
 export default App;
+
+// https://ibb.co/mHMxTKX
+// https://ibb.co/8NRtCRv
