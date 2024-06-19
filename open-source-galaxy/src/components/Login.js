@@ -10,7 +10,7 @@ const Login = () => {
       className="profile m-2 py-2 px-4 "
       title="Log in to your account"
     >
-      <i class="fas fa-sign-in-alt"></i> Log In
+      <i className="fas fa-sign-in-alt"></i> Log In
     </button>
   );
 };

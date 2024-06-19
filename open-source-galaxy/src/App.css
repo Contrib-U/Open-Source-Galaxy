@@ -13,20 +13,17 @@ ElementEven {
     width: 100%;
   }
 }
-<<<<<<< HEAD
-=======
 
 @media (max-width: 767px) {
   .container {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
-.light-mode{
+.light-mode {
   background-color: aliceblue;
 }
 
-.dark-mode{
-  background-color: #1E1E1E;
+.dark-mode {
+  background-color: #1e1e1e;
 }
->>>>>>> main
