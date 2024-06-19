@@ -36,8 +36,6 @@ function App() {
           element={<UpcomingApplications />}
         /> */}
         <Route path="/blogs" element={<Blogs />} />
-        {/* <Route path="/log-in" element={<Login />} />
-        <Route path="/sign-up" element={<Signup />} /> */}
       </Routes>
 
       {/* <div className="container">

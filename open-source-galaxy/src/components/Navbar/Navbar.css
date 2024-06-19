@@ -1,16 +1,13 @@
 .navbar-custom {
-  background-color: black;
-  color: #fff;
+  background-color: rgba(30, 30, 30, 0.5);
   transition: all 0.3s ease;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-.search-field {
-}
-
 .navbar-custom .navbar-brand {
   font-size: 1.6rem;
+  font-weight: bold;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -21,13 +18,17 @@
   color: #fff;
 }
 
-#basic-nav-dropdown {
-  color: #ef5941;
+.navbar-custom .nav-link {
+  margin-right: 0.3rem;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
+
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link,
 .navbar-custom .nav-dropdown-item,
-.navbar-custom .navbar-toggler {
+.navbar-custom .navbar-toggler,
+#basic-nav-dropdown {
   color: #ef5941;
 }
 
