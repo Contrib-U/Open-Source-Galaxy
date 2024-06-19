@@ -39,22 +39,6 @@ function App() {
           link="https://developers.google.com/season-of-docs"
         />
 
-        <ElementEven
-          name="Linux Kernal Mentorship"
-          src={images["element-7.png"]}
-          link="https://wiki.linuxfoundation.org/lkmp"
-        />
-        <ElementOdd
-          name="Code Heat"
-          src={images["element-8.png"]}
-          link="https://codeheat.org/"
-        />
-        <ElementEven
-          name="Hacktober Fest"
-          src={images["element-9.jpg"]}
-          link="https://hacktoberfest.com/"
-        />
-
         <ElementOdd
           name="GirlScript SOC"
           src={images["element-4.jpg"]}
@@ -70,9 +54,7 @@ function App() {
           src={images["element-6.png"]}
           link="https://www.summerofbitcoin.org/"
         />
-      </div>
 
-      <div className="row">
         <ElementOdd
           name="Hyperledger Mentorship Program"
           src={images["element-10.png"]}
@@ -88,9 +70,7 @@ function App() {
           src={images["element-12.png"]}
           link="https://fossasiataipei.github.io/fossasia-cht/apply/"
         />
-      </div>
 
-      <div className="row">
         <ElementOdd
           name="Summer of Nix"
           src={images["element-13.png"]}
@@ -112,43 +92,3 @@ function App() {
 }
 
 export default App;
-
-// https://ibb.co/mHMxTKX
-// https://ibb.co/8NRtCRv
-
-// import React from "react";
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import Home from "./components/Home/Home";
-// import About from "./components/About/About";
-// import ClosedApplications from "./components/ClosedProject/ClosedApplication";
-// import Navbar from "./components/Navbar/CustomNavbar";
-// import UpcomingApplications from "./components/UpcomingProject/UpcomingProject";
-// import OpenApplications from "./components/OpenProjects/OpenApplication";
-// import Blogs from "./components/Blogs/Blogs";
-// import Login from "./components/Login";
-// import Signup from "./components/SignUp";
-
-// function App() {
-//   return (
-//     <Router>
-//       <>
-//         <Navbar />
-//         <Routes>
-//           <Route exact path="/" element={<Home />} />
-//           <Route path="/about" element={<About />} />
-//           <Route path="/closed-applications" element={<ClosedApplications />} />
-//           <Route path="/open-applications" element={<OpenApplications />} />
-//           <Route
-//             path="/upcoming-applications"
-//             element={<UpcomingApplications />}
-//           />
-//           <Route path="/blogs" element={<Blogs />} />
-//           <Route path="/log-in" element={<Login />} />
-//           <Route path="/sign-up" element={<Signup />} />
-//         </Routes>
-//       </>
-//     </Router>
-//   );
-// }
-
-// export default App;
