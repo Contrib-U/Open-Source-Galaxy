@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ElementOdd from "./components/ElementOdd";
 import Header from "./components/Header";
 import ElementEven from "./components/ElementEven";
+import { ChakraProvider } from "@chakra-ui/react";
 // import { ThemeProvider } from "./components/ThemeContext";
 // import SearchBar from './components/SearchBar';
 // import './assets/';
@@ -26,24 +27,25 @@ const images = importAll(require.context("./assets", false, /\.(png|jpe?g)$/));
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
+      <ChakraProvider>
+        <Router>
+          <Navbar />
 
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          {/* <Route path="/closed-applications" element={<ClosedApplications />} />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            {/* <Route path="/closed-applications" element={<ClosedApplications />} />
           <Route path="/open-applications" element={<OpenApplications />} />
           <Route
             path="/upcoming-applications"
             element={<UpcomingApplications />}
           /> */}
-          <Route path="/blogs" element={<Blogs />} />
-          {/* <Route path="/log-in" element={<Login />} />
+            <Route path="/blogs" element={<Blogs />} />
+            {/* <Route path="/log-in" element={<Login />} />
           <Route path="/sign-up" element={<Signup />} /> */}
-        </Routes>
+          </Routes>
 
-        {/* <div className='container'>
+          {/* <div className='container'>
         <ElementOdd name="Google Summer Of Code" src= {images['element_1.jpg']} link = "https://summerofcode.withgoogle.com/"/>
         <ElementEven name="MLH Fellowship" src={images['element-2.png']} link = "https://shorturl.at/cRVY7"/>
         <ElementOdd name="Google Summer Of Docs" src={images['element-3.png']} link = "https://developers.google.com/season-of-docs"/>
@@ -112,7 +114,8 @@ function App() {
           link="https://github.com/education/Octernships"
         />
       </div>  */}
-      </Router>
+        </Router>
+      </ChakraProvider>
     </>
   );
 }
