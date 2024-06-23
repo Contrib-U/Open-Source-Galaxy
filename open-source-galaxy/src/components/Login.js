@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <button
       onClick={() => loginWithRedirect()}
-      className="profile m-2 py-2 px-4 "
+      className="profile  py-2 px-4 "
       title="Log in to your account"
     >
       <i className="fas fa-sign-in-alt"></i> Log In

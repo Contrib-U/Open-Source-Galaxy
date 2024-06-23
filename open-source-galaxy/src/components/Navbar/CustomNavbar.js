@@ -10,6 +10,8 @@ import Col from "react-bootstrap/Col";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Login from "../Login";
 import "./Navbar.css";
+import DarkAnim from "../DarkAnim";
+import ThemeToggle from "../ThemeToggle";
 
 export default function CustomNavbar() {
   return (
@@ -27,6 +29,7 @@ export default function CustomNavbar() {
             <Nav.Link as={Link} to="/about">
               About
             </Nav.Link>
+
             <NavDropdown title="Projects" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/open-projects">
                 Open Projects
@@ -41,6 +44,8 @@ export default function CustomNavbar() {
             <Nav.Link as={Link} to="/blogs">
               Blogs
             </Nav.Link>
+
+            {/* <DarkAnim /> */}
           </Nav>
           <Form className="d-flex mb-3 mb-lg-0">
             <Row className="align-items-center gx-2">
@@ -54,6 +59,7 @@ export default function CustomNavbar() {
           </Form>
 
           <Login />
+          <ThemeToggle className="fixed" />
         </Navbar.Collapse>
       </Container>
     </Navbar>

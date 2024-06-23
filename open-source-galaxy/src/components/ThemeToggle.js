@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
-import { ThemeContext } from './ThemeContext';
-import './ThemeToggle.css';
+import React, { useContext } from "react";
+import { ThemeContext } from "./ThemeContext";
+import "./ThemeToggle.css";
 
 const ThemeToggle = () => {
   const { isDarkMode, toggleTheme } = useContext(ThemeContext);
@@ -8,7 +8,7 @@ const ThemeToggle = () => {
   return (
     <button
       id="button"
-      className={`theme-toggle ${isDarkMode ? 'theme-toggle--toggled' : ''}`}
+      className={`theme-toggle ${isDarkMode ? "theme-toggle--toggled" : ""}`}
       type="button"
       title="Toggle theme"
       aria-label="Toggle theme"
@@ -17,10 +17,10 @@ const ThemeToggle = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="false"
-        width="2em"
-        height="1em"
-        fill={`${isDarkMode?'white' :'orangered'}`}
-        className="theme-toggle__expand"
+        width="1em"
+        height="0.6em"
+        fill={`${isDarkMode ? "white" : "white"}`}
+        className="theme-toggle__expand mx-3"
         viewBox="0 -1.5 33 32"
       >
         <clipPath id="theme-toggle__expand__cutout">

@@ -5,7 +5,7 @@ import ElementOdd from "./components/ElementOdd";
 import Header from "./components/Header";
 import ElementEven from "./components/ElementEven";
 import { ChakraProvider } from "@chakra-ui/react";
-// import { ThemeProvider } from "./components/ThemeContext";
+import { ThemeProvider } from "./components/ThemeContext";
 // import SearchBar from './components/SearchBar';
 // import './assets/';
 import Home from "./components/Home/Home";
@@ -27,7 +27,9 @@ const images = importAll(require.context("./assets", false, /\.(png|jpe?g)$/));
 function App() {
   return (
     <>
-      <ChakraProvider>
+      {/* <ChakraProvider> */}
+
+      <ThemeProvider>
         <Router>
           <Navbar />
 
@@ -115,7 +117,8 @@ function App() {
         />
       </div>  */}
         </Router>
-      </ChakraProvider>
+      </ThemeProvider>
+      {/* </ChakraProvider> */}
     </>
   );
 }

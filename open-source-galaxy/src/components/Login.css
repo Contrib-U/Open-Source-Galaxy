@@ -3,7 +3,7 @@
   /* width: 80px;
   margin: 20px 20px 5px 5px; */
   cursor: pointer;
-  background-color: #f05941;
+  background: #8d200f;
   /* font-weight: bold;
   font-size: large; */
   border-radius: 20px;
@@ -14,7 +14,7 @@
 }
 
 .profile:hover {
-  background-color: #e04834;
+  background: #8d200f;
   transform: scale(1.03);
 }
 
