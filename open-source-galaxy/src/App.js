@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ElementOdd from "./components/ElementOdd";
 import Header from "./components/Header";
 import ElementEven from "./components/ElementEven";
-import { ChakraProvider } from "@chakra-ui/react";
+
 import { ThemeProvider } from "./components/ThemeContext";
 // import SearchBar from './components/SearchBar';
 // import './assets/';
