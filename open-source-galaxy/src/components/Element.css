@@ -1,0 +1,53 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure the content is spaced out */
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 100%; /* Make sure the card takes the full height */
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensures the image covers the box while maintaining its aspect ratio */
+    border-radius: 4px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align the name and buttons at the bottom */
+    width: 100%;
+  }
+  
+  .card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .buttons .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .buttons .btn:hover {
+    background-color: #0056b3;
+  }
+  
