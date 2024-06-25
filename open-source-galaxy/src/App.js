@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './about.css'
 import ElementOdd from './components/ElementOdd';
 import Header from './components/Header';
 import ElementEven from './components/ElementEven';
@@ -25,7 +26,13 @@ function App() {
       <ThemeProvider>
         <Header/>
       </ThemeProvider>
-      
+    <div className="about-section">
+      <h2>About Open Source Galaxy</h2>
+      <p>
+        Open Source Galaxy is a platform designed to keep open-source enthusiasts up-to-date with the latest event registration openings. Users can easily access information about upcoming events and ensure they never miss an opportunity to participate.
+      </p>
+      {/* Optionally add an image, video, or contact information */}
+    </div>
       <div className='container'>
         <ElementOdd name="Google Summer Of Code" src= {images['element_1.jpg']} link = "https://summerofcode.withgoogle.com/"/>
         <ElementEven name="MLH Fellowship" src={images['element-2.png']} link = "https://shorturl.at/cRVY7"/>
