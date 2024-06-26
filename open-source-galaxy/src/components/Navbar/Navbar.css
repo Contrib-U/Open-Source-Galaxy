@@ -11,16 +11,15 @@
   font-size: 1.6rem;
   font-weight: 900;
   padding-top: 0.4rem;
-  padding-bottom: 1rem;
+
   align-items: center;
-  color: black;
-  font-family: "Playwrite NG Modern", cursive;
+  color: white;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
 .navbar-custom .navbar-brand:hover {
-  /* color: white; */
+  color: white;
 }
 
 .navbar-custom .button {

@@ -59,7 +59,7 @@ export default function CustomNavbar() {
           </Form>
 
           <Login />
-          <ThemeToggle className="fixed" />
+          {/* <ThemeToggle className="fixed" /> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
