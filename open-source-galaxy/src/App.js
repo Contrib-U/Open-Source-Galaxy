@@ -9,6 +9,7 @@ import CustomNavbar from "./components/Navbar/CustomNavbar";
 import Blogs from "./components/Blogs";
 import About from "./components/About";
 import Home from "./components/Home";
+import FAQ from "./components/FAQAccordion";
 import Footer from "./components/Footer/Footer";
 // import SearchBar from './components/SearchBar';
 // import './assets/';
@@ -127,7 +128,7 @@ function App() {
             link="https://github.com/education/Octernships"
           />
         </div>
-
+        <FAQ />
         <Footer />
       </Router>
     </div>
