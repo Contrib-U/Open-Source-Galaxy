@@ -3,15 +3,11 @@
 .navbar-custom {
   background-color: #ef5941;
   transition: all 0.3s ease;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 .navbar-custom .navbar-brand {
   font-size: 1.6rem;
   font-weight: 900;
-  padding-top: 0.4rem;
-
   align-items: center;
   color: white;
   font-optical-sizing: auto;
