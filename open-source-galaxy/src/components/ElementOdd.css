@@ -81,6 +81,7 @@
     width: 100%;
     border-bottom: 2px solid #D89216;
     border-radius: 15px 15px 0 0;
+    object-fit: fill;
 }
 
 .card-odd h3 {
@@ -89,10 +90,11 @@
 }
 
 .buttons-odd {
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: auto;
 }
 
 .btn-odd {
@@ -112,7 +114,7 @@
 .card-odd img {
     width: 100%;
     height: 200px; /* Set a fixed height to avoid stretching */
-    object-fit: cover; /* Ensures the image covers the area without stretching */
+    object-fit: contain; /* Ensures the image covers the area without stretching */
     border-bottom: 2px solid #D89216;
     border-radius: 15px 15px 0 0;
 }

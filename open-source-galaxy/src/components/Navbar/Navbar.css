@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+NG+Modern:wght@100..400&display=swap");
+.navbar-custom {
+  background-color: #ef5941;
+  transition: all 0.3s ease;
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 1.6rem;
+  font-weight: 900;
+  align-items: center;
+  color: white;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.navbar-custom .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-custom .button {
+  background: #8d200f;
+  border: none;
+  color: white;
+}
+
+.navbar-custom .button:hover {
+  background: #8d200f;
+  transform: scale(1.03);
+}
+
+.navbar-custom .nav-link {
+  margin-right: 0.3rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .nav-dropdown-item,
+.navbar-custom .navbar-toggler,
+#basic-nav-dropdown {
+  color: white;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-dropdown-item:hover {
+  color: white !important;
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Add margin beneath the dropdown on smaller screens when the navbar is collapsed */
+@media (max-width: 992px) {
+  .navbar-collapse .dropdown-menu {
+    margin-bottom: 15px;
+  }
+
+  .navbar-collapse {
+    transition: all 0.3s ease;
+  }
+}
