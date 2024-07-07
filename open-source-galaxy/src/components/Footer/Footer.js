@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="p-4 footer-custom">
       <Container fluid>
-        <Row className="mb-3">
+        <Row className="mb-3" >
           <Col md={6} className="mb-md-0 mb-4">
             <h4>Open Source Galaxy</h4>
             <p>
@@ -65,7 +65,7 @@ const Footer = () => {
         </Row>
 
         <Row>
-          <Col md={6}>
+          <Col >
             <p className="text-muted ">
               &copy; {new Date().getFullYear()} Open Source Galaxy. All rights
               reserved.

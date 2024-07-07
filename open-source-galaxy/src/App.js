@@ -136,5 +136,3 @@ function App() {
 
 export default App;
 
-// https://ibb.co/mHMxTKX
-// https://ibb.co/8NRtCRv
