@@ -50,3 +50,20 @@ We welcome contributions from everyone! Here’s how you can get involved:
 Please ensure your code follows our [Contribution Guidelines](Contributors.md).
 
 
+## 👥 Contributors
+
+We thank the following individuals for their contributions to Open Source Galaxy:
+
+<!-- CONTRIBUTORS-LIST:START -->
+  <a href="https://github.com/Rupa-Rd"><img src="https://avatars.githubusercontent.com/u/102663541?v=4" width="100px" style="border-radius: 50%;" alt="Rupa-Rd"/></a>
+  <a href="https://github.com/Mehak-Mattoo"><img src="https://avatars.githubusercontent.com/u/77096365?v=4" width="100px" style="border-radius: 50%;" alt="Mehak-Mattoo"/></a>
+  <a href="https://github.com/Ayushswirlon"><img src="https://avatars.githubusercontent.com/u/136717301?v=4" width="100px" style="border-radius: 50%;" alt="Ayushswirlon"/></a>
+  <a href="https://github.com/deepesh611"><img src="https://avatars.githubusercontent.com/u/123585104?v=4" width="100px" style="border-radius: 50%;" alt="deepesh611"/></a>
+  <a href="https://github.com/kom-senapati"><img src="https://avatars.githubusercontent.com/u/92045934?v=4" width="100px" style="border-radius: 50%;" alt="kom-senapati"/></a>
+  <a href="https://github.com/rajdesai17"><img src="https://avatars.githubusercontent.com/u/118588662?v=4" width="100px" style="border-radius: 50%;" alt="rajdesai17"/></a>
+  <a href="https://github.com/avyaanverma"><img src="https://avatars.githubusercontent.com/u/114806843?v=4" width="100px" style="border-radius: 50%;" alt="avyaanverma"/></a>
+  <a href="https://github.com/Kaustav2410"><img src="https://avatars.githubusercontent.com/u/94297897?v=4" width="100px" style="border-radius: 50%;" alt="Kaustav2410"/></a>
+  <a href="https://github.com/shatanshu3006"><img src="https://avatars.githubusercontent.com/u/100084737?v=4" width="100px" style="border-radius: 50%;" alt="shatanshu3006"/></a>
+<!-- CONTRIBUTORS-LIST:END -->
+
+Thank you for being a part of Open Source Galaxy! Let's make a difference in the open-source community together. 🌍💡
