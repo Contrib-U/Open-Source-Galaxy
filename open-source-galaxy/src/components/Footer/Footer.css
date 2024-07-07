@@ -4,12 +4,18 @@
 }
 
 .footer-custom h4,
+.footer-custom p{
+  margin-left: 75px;
+}
+
+.footer-custom h4,
 .footer-custom h5 {
   color: #ffffff;
 }
 
 .footer-custom ul {
   padding-left: 0;
+  
 }
 
 .footer-custom ul li {
@@ -28,5 +34,7 @@
 
 .text-muted {
   font-size: 14px;
-  color: white;
+  /* margin: 0; */
+  width: 100%;
+  text-align: center;
 }
