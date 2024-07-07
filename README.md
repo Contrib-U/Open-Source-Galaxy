@@ -55,7 +55,7 @@ Please ensure your code follows our [Contribution Guidelines](Contributors.md).
 We thank the following individuals for their contributions to Open Source Galaxy:
 
 <!-- CONTRIBUTORS-LIST:START -->
-  <a href="https://github.com/Rupa-Rd"><img src="https://avatars.githubusercontent.com/u/102663541?v=4" width="100px" style="border-radius: 50%;" alt="Rupa-Rd"/></a>
+  <a href="https://github.com/Rupa-Rd"><img src="https://avatars.githubusercontent.com/u/102663541?v=4" width="100px"   style="border-radius: 50%;" alt="Rupa-Rd"/></a>
   <a href="https://github.com/Mehak-Mattoo"><img src="https://avatars.githubusercontent.com/u/77096365?v=4" width="100px" style="border-radius: 50%;" alt="Mehak-Mattoo"/></a>
   <a href="https://github.com/Ayushswirlon"><img src="https://avatars.githubusercontent.com/u/136717301?v=4" width="100px" style="border-radius: 50%;" alt="Ayushswirlon"/></a>
   <a href="https://github.com/deepesh611"><img src="https://avatars.githubusercontent.com/u/123585104?v=4" width="100px" style="border-radius: 50%;" alt="deepesh611"/></a>
