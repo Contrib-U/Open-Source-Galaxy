@@ -29,10 +29,22 @@ Open Source Galaxy is your go-to platform for staying updated on upcoming open-s
 We welcome contributions from everyone! Here’s how you can get involved:
 
 1. **Fork the Repository:** Click on the 'Fork' button at the top right corner of this page.
-2. **Clone the Forked Repository:** Use `git clone https://github.com/Rupa-Rd/Open-Source-Galaxy.git` to clone your forked repo to your local machine.
-3. **Create a New Branch:** Use `git checkout -b <branch-name>` to create a new branch.
+2. **Clone the Forked Repository:**
+   
+   ``` bash
+   git clone https://github.com/Rupa-Rd/Open-Source-Galaxy.git
+   ``` 
+3. **Create a New Branch:**
+   ```bash
+   git checkout -b <branch-name>
+   ```
 4. **Make Your Changes:** Implement your changes or add new features.
-5. **Commit and Push:** Use `git add .`, `git commit -m "your commit message"`, and `git push origin <branch-name>`.
+5. **Commit and Push:**
+   ```bash
+   git add .
+   git commit -m "your commit message"
+   git push origin <branch-name>
+   ```
 6. **Submit a Pull Request:** Go to the original repository and create a new pull request from your forked repository.
 
 Please ensure your code follows our [Contribution Guidelines](Contributors.md).
