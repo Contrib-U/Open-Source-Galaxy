@@ -1,12 +1,3 @@
-
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import About from './about';
-import reportWebVitals from './reportWebVitals';
-import { Auth0Provider } from '@auth0/auth0-react';
-
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
