@@ -4,17 +4,17 @@ import './ElementOdd.css'
 import Email from './Email';
 
 function Element(props) {
-  
-
- 
   return (
     <div class='card-odd'>
-        <img src={props.src} alt='MLH' />
-        <h3>{props.name}</h3>
-        <div class="buttons-odd">
-            <a href={props.link} class="btn-odd">Link</a>
-            <Email name={props.name} class="btn-odd" />
-        </div>  
+      <img src={props.src} alt='MLH' />
+      <h3>{props.name}</h3>
+      <div class="buttons-odd">
+        {/* <a href={props.link} class="btn-odd">Link</a> */}
+        <a href={props.link} className="btn-odd" target="_blank" rel="noopener noreferrer">
+          Link
+        </a>
+        <Email name={props.name} class="btn-odd" />
+      </div>
     </div>
   )
 }
