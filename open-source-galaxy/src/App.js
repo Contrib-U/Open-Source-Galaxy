@@ -129,6 +129,21 @@ function App() {
             src={images["element-15.png"]}
             link="https://github.com/education/Octernships"
           />
+          <ElementOdd
+            name="JGEC Winter of Code: JWoC"
+            src={images["element-16.png"]}
+            link="https://www.jwoc.tech/"
+          />
+          <ElementOdd
+            name="Season of KDE"
+            src={images["element-17.png"]}
+            link="https://mentorship.kde.org/sok/"
+          />
+          <ElementOdd
+            name="Social Winter of Code"
+            src={images["element-18.png"]}
+            link="https://www.socialwinterofcode.com/"
+          />
         </div>
 
         <FAQ />
