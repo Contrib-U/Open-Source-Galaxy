@@ -1,0 +1,43 @@
+/* About.css */
+
+.about-section {
+  /* Style the overall container */
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px; /* Optional: Set a maximum width */
+  border: 8px solid #2f2f2f; /* Add a border with color and thickness */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+  background-color: #feeef0;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.about-section h2,
+.about-section p {
+  /* Style the heading and paragraph text */
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  color: #c7493a;
+  font-family: "PT Serif Caption", serif;
+  opacity: 0;
+  animation: fadeInText 1s ease-in-out 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

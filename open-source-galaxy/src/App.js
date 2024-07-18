@@ -49,7 +49,6 @@ function App() {
           <Route path="/sign-up" element={<Signup />} /> */}
         </Routes>
 
-        
         <div className="container">
           <ElementOdd
             name="Google Summer Of Code"
@@ -147,7 +146,7 @@ function App() {
         </div>
 
         <FAQ />
-        
+
         <Footer />
       </Router>
     </div>
@@ -155,4 +154,3 @@ function App() {
 }
 
 export default App;
-
