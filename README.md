@@ -64,6 +64,8 @@ We thank the following individuals for their contributions to Open Source Galaxy
   <a href="https://github.com/avyaanverma"><img src="https://avatars.githubusercontent.com/u/114806843?v=4" width="100px" style="border-radius: 50%;" alt="avyaanverma"/></a>
   <a href="https://github.com/Kaustav2410"><img src="https://avatars.githubusercontent.com/u/94297897?v=4" width="100px" style="border-radius: 50%;" alt="Kaustav2410"/></a>
   <a href="https://github.com/shatanshu3006"><img src="https://avatars.githubusercontent.com/u/100084737?v=4" width="100px" style="border-radius: 50%;" alt="shatanshu3006"/></a>
+  <a href="https://github.com/mu6m"><img src="https://avatars.githubusercontent.com/u/121174019?v=4" width="100px" style="border-radius: 50%;" alt="mu6m"/></a>
+  <a href="https://github.com/Meetjain1"><img src="https://avatars.githubusercontent.com/u/133582566?v=4" width="100px" style="border-radius: 50%;" alt="Meetjain1"/></a>
 <!-- CONTRIBUTORS-LIST:END -->
 
 Thank you for being a part of Open Source Galaxy! Let's make a difference in the open-source community together. 🌍💡
