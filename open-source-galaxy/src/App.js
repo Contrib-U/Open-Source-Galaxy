@@ -143,6 +143,12 @@ function App() {
             src={images["element-18.png"]}
             link="https://www.socialwinterofcode.com/"
           />
+          <ElementOdd
+            name="Hack Squad"
+            src={images["element-19.png"]}
+            link="https://www.hacksquad.dev/"
+          />
+
         </div>
 
         <FAQ />
